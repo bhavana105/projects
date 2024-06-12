@@ -1,0 +1,40 @@
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    } 
+.game{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    height: 100px; 
+      width: 100px;
+      box-shadow: 2px 2px 2px 2px  rgb(70, 43, 43);
+      font-size:60px;
+      color:blueviolet;
+    } 
+    #reset{
+        padding: 10px;
+        font-size: 1.5rem;
+        position: relative;
+        top: 50px;
+    }
+    .win{
+        padding: 40px;
+       font-size: 7vmin;
+       color:coral;
+    }
+    .hide{
+        display: none;
+    }
