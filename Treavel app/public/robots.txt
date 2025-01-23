@@ -1,0 +1,41 @@
+why do use body parse:
+The body parser middleware in Express streamlines the handling of HTTP request bodies, making backend development more efficient and secure. Understanding its role and implementation is key for developers looking to build robust and scalable web applications with Node.
+
+ express js (server)?
+
+const express = require('express');
+const app = express();
+const PORT = process.eventNames.PORT || 3000;
+app.listen(PORT , () => {
+    console.log(`server running on port ${PORT}`);
+
+});
+
+
+why should i use dotenv?
+Improved security: All applications use sensitive data like database credentials, API keys, and other secrets that you don't want to expose in your code. By storing these secrets in the . env file, Dotenv ensures that they're not exposed in your code and are not checked into version control.
+Why should we use .env file?
+The . env file serves as a centralized location to store configuration settings for your project. This can include API keys, database connection strings, environment-specific configurations, and more. Storing these settings in a separate file makes it easier to manage and update them without modifying the code
+
+const dotenv = require('dotenv');
+dotenv.config();
+const port = process.env.PORT\\3000;
+
+npm i --save-dev nodemon (it runs automatically not need run start server again and again)
+\\\\THIS IS SIGN\\\\
+"devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+\\\\\ IN PACKAGE,JSON\\\
+ small chane in package.json=>in script section=> "blog": "nodemon server.js"
+after just enter in terminal this command {npm run blog }
+
+
+
+
+
+
+
+
+
+

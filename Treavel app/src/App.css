@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 5px solid rgb(15, 13, 13);
+}
+.logo{
+   width: 100px;
+   height: 50px;
+}
+
+ul li a{
+color: #000;
+text-decoration: none;
+}
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid ;
+}
+
+.video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  
+
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    text-align: center;
+}
+.content h1, .content h5 {
+    margin: 10px 0;
+}
+
+.box {
+    background-color: rgb(206, 225, 241);
+    padding: 20px; 
+    line-height: 1; 
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+
+} 
+
+.input {
+    height: 50px;
+    padding:  15px ;  
+    background-color: #fff;
+     border-radius: 3rem;
+     display: flex;
+    align-items: center;
+    gap: 10px;   
+
+     } 
+
+input{
+    background-color: none;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 300px;
+    width: 100%;
+
+}
+.input i {
+    color: #000;  
+    font-size: 25px;  
+}
+.input:hover{
+    border-radius: 5%;
+    box-shadow: 1px 2px 2px ;
+}
+
+.destination-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+.card:hover {
+    background-color: rgb(196, 199, 221);
+}
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .destination-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .destination-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 690px) {
+    .destination-container {
+     text-align: center;     
+   grid-template-columns: 1fr;
+    }
+} 
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.copy{
+    text-align: center;
+}
+.bi:hover{
+    cursor: pointer;
+}
+.footer {
+    background-image: url("../public/images/footer1.jpeg");
+background-size: cover;
+}
+
+.group h4 {
+    margin-right: -100px; /* Adjust the value as needed */
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size:29px ;
+}
+
+
