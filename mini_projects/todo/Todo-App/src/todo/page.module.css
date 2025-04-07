@@ -1,0 +1,18 @@
+input{
+  width: 70%;
+  padding: 3px;
+  }
+  .every{
+    margin-top: 3px;
+    font-weight: 600;
+  }
+  .add{
+position: relative;
+left: -7.5px;
+}
+.delete{
+  padding-left: 16px;
+  padding-right:16px;
+
+}
+

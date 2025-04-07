@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pg.css">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <div class="display-container">
+            <input class="display" type="text" readonly>
+
+            <button id="copy">
+              <i class=" copyText fa fa-clone" aria-hidden="true"></i>
+            </button>
+
+            <div class="copyMsg">copy</div>
+
+           
+        </div>
+
+
+        <div class="input-container">
+
+                
+                    <input type="range" value="8"  min="1" max="20" step="1" id="inputSlider"/>
+
+                  <div  class="pas-len">
+                    <P>Password length</P>
+                      <p id="displaynum" data-lengthNumber></p>
+                        </div>
+                  
+<!-- **checkboxes -->
+                  <div class="check">
+                  <div>
+                    <input  id="upper" type="checkbox" >
+                    <lable for="uppercase" >Includes Uperrcase letters<lable>
+                  </div> 
+                  <div>
+                    <input id="lower" type="checkbox">
+                    <lable for="lowercase">Includes Lowercase letters<lable>
+                  </div><div>
+                    <input id="numbers" type="checkbox">
+                    <lable for="numbers">Includes Numbers<lable>
+                  </div><div>
+                    <input id="symbols" type="checkbox">
+                    <lable for="symbols">Includes Symbols<lable>
+                  </div>
+
+                </div>
+
+                <div class="strength">
+                    <p>Strength</p>
+                    <div class="indicator"></div>
+                </div>
+
+                <button class="generateBtn"  >Generate Password</button>
+            </div>
+
+
+        </div>
+        <script src="./pg.js"></script>
+
+</body>
+</html>

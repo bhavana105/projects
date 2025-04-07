@@ -1,0 +1,29 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+ 
+}
+/* .bava{
+  background-Image: "url('/imgs/child.webp')";
+  background-Size: "200% 335%";
+  background-Repeat: "no-repeat";
+  background-Position: "center";
+  height: "150vh";
+  filter: "blur(2px)";
+  position: "absolute";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-Index: -1;
+} */
+
+
+.row{
+  margin-bottom: 5px;
+}
+
+
+
