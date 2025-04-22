@@ -1,0 +1,17 @@
+#root {
+ padding: 0;
+ margin: 0;
+}
+.container{
+  display: flex;
+}
+ .content{
+  width: 100%;
+
+}
+.sidebar{
+  min-height: 100px;
+}
+.hashtag{
+margin: 10px;
+}

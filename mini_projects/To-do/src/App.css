@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+input{
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+button{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+li{
+  list-style: none;
+}
+ .delete{
+  width: 20px;
+position: relative;
+right: -10px;
+top: 2px;
+ }
+ .checked{
+width: 30px;
+position: relative;
+left: -10px;
+top: 5px;
+ }
+.items{
+  padding: 0px 12px;
+  border-bottom:2px solid ;
+  margin-bottom: 15px;
+}
+
+.bgimg {
+  position: absolute;
+  left: 90px;
+  width: 300px;
+  height: 100vh;
+  animation: moveX 3s infinite ease-in-out alternate;
+}
+
+@keyframes moveX {
+  0% {
+    transform: translateX(0);
+  }
+ 
+  100% {
+    transform: translateX(100px); 
+  }
+}

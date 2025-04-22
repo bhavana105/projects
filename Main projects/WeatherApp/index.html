@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+    <h1>Weather App</h1>
+    <!-- open weather api
+    apikeys:78175af9a04c55d386049430d9c972a5
+    api:https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} -->
+    
+<div class="container">
+
+  <div class="input">
+    <input type="text" placeholder="search weather here" class="search"/>
+  <span class="material-symbols-outlined " id="searchicon"  >
+    search
+    </span>
+  </div>
+
+  <div class="wheatherDeatails">
+  <p class="country"></p>
+  <p class="wheather-name "></p>
+  <img src="./imgs/cloudy1.png"  class="image"/>
+  <div class="temp " ></div>
+
+ <div class="parameters">
+  <div class="first">
+    <img src="./imgs/icons8-wind-48.png"/>
+    <p>WINDSPEED</p>
+    <p class="speed" ;></p>
+  </div>
+
+<div class="first">
+  <img src="./imgs/icons8-humidity.png"/>
+
+  <p>HUMIDITY</p>
+  <p class="humidity"></p>
+</div>
+
+  <div class="first">
+    <img src="./imgs/icons8-cloud-48.png"/>
+
+    <p>CLOUDS</p>
+  <p class="clouds"></p>
+  </div>
+</div>
+ </div>
+
+</div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

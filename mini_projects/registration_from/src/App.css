@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(235, 225, 225);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+label{
+  font-size: 17px
+}
+input{
+  padding: 6px;
+  max-width: fit-content;  
+}
+.formfield{
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+
+}
+button{
+
+  margin: 15px 50px;
+  padding: 5px 15px;
+}
