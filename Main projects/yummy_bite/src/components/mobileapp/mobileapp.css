@@ -1,0 +1,12 @@
+.apps{
+  text-align: center;
+  margin-top: 60px;
+}
+img{
+  width: 150px;
+  margin: 20px;
+}
+.apps img:hover{
+  transition: 0.8s;
+  transform: scale(1.3);
+}
