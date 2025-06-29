@@ -1,0 +1,51 @@
+li{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  box-shadow: 2px 2px 5px 1px black;
+
+}
+img{
+  width: 90px;
+  height: 100px;
+}
+.bg{
+  background-color: rgb(127, 255, 212,0.6);
+border-radius: 50%;
+border: 1px solid black;
+width: 80%;
+animation: backgd 4s infinite;
+position: relative;
+right: -20px;
+margin-top: 5px;
+}
+@keyframes backgd{
+  10%{
+          transform: scale(1.1);
+  }
+}
+
+h4{
+font-size: 21px;
+text-shadow: 1px 2px 15px  black;
+}
+.bar{
+  background-color: aquamarine;
+  border-radius: 20%;
+  width: 50%;
+  padding: 5px;
+position: relative;
+right: -70px;
+border: 1px solid black;
+
+}
+.mesurements{
+  display: flex;
+gap: 10px;
+justify-content: space-around;}
+.color{
+color: rgb(1, 3, 60);
+}

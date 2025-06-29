@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+ .search{
+  text-align: center;
+  margin: 20px;
+ }
+ input{
+  padding: 3px;
+  max-width: 100%;
+ }
+header{
+  text-align: center;
+  margin-top: 2em;
+}
+.cards{
+    margin: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2em;
+    row-gap: 2em;
+text-align: center;
+}
